@@ -1,0 +1,63 @@
+NAME
+    Games::Word::Phraselist::Proverb::TWW - Proverb phrases from Tom Wills
+    (English)
+
+VERSION
+    This document describes version 0.01 of
+    Games::Word::Phraselist::Proverb::TWW (from Perl distribution
+    Games-Word-Phraselist-Proverb-TWW), released on 2014-08-11.
+
+SYNOPSIS
+      use Games::Word::Phraselist::Proverb::TWW;
+      my $pl = Games::Word::Phraselist::Proverb::TWW->new;
+      my $phrase = $pl->random_phrase;
+      print "We have a phrase." if $pl->is_phrase($phrase);
+
+DESCRIPTION
+    "Games::Word::Phraselist::Proverb::TWW" subclasses
+    Games::Word::Phraselist, giving you phrases of English proverbs from Tom
+    Wills' website at:
+
+     http://tww.id.au/proverbs/proverbs.html
+
+    The license statement at the site says: "Please feel free to copy these
+    proverbs and distribute them to the younger generation."
+
+    Some stats:
+
+     Number of phrases: 472
+     Length of shortest phrase: 13
+     Length of longest phrase: 97
+     Average phrase length: 37.4
+
+    Since "Games::Word::Phraselist" is subclassed, all its methods (except
+    "new") are available.
+
+SEE ALSO
+    Games::Word::Phraselist.
+
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Games-Word-Phraselist-Proverb-TWW>.
+
+SOURCE
+    Source repository is at
+    <https://github.com/sharyanto/perl-Games-Word-Phraselist-Proverb-TWW>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=Games-Word-Phraselist
+    -Proverb-TWW>
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2014 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
